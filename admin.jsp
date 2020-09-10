@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Travel Rating</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div id="header">
+<div class="section">
+    <span id="ribbon"></span>
+    <span id="button"></span>
+    <div>
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.gif" alt="Logo" /></a>
+        </div>
+        <div id="navigation">
+            <ul class="primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="admin.jsp">Admin</a></li>
+                    <li><a href="user.jsp">User</a></li>
+                    <li><a href="guest.jsp">Guest User</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div id="content">
+<div>
+    <span class="background"></span>
+    <div class="section">
+        <center>
+        <h1 class="title"><font color="blue"><i>Admin Login</i></font></h1></center>
+        <form action="adminact.jsp" method="post">
+        <center><table border="0" width="30%">
+        <tr>
+            <td><font color="black"> User Name :</td>
+            <td><input type="text" name="username" required="" /></td>
+        </tr>
+        <tr>
+            <td><font color="black"> Password :</td>
+            <td><input type="password" name="password" required="" /></td>
+        </tr>
+        <td rowspan="2" align="center">
+        <td><input type="submit" name="submit" value="Login" /></td>    
+        </table></center>
+        </form><br><br>
+    </div>
+</div>
+</div>
+<div id="footer">
+        <p> All Rights Reserved.</p>
+</div>
+</body>
+</html>
